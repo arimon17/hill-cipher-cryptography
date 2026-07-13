@@ -52,4 +52,4 @@ python hill_cipher_kriptografi.py
 
 ## Author
 
-Kelompok 9
+Yosua Arimon

@@ -1,50 +1,48 @@
-# Hill Cipher - Kriptografi
+# Hill Cipher - Cryptography
 
-Aplikasi Console Python untuk implementasi algoritma Hill Cipher 2x2.
+A Python console application implementing the 2×2 Hill Cipher algorithm.
 
-## Mata Kuliah
-Kriptografi
+## Course
+Cryptography
 
-## Kelompok
-Kelompok 9
+## Group
+Group 9
 
-## Rantai Komunikasi
+## Communication Chain
 
-Kelompok 7 (Full Vigenere)
+Group 7 (Full Vigenere)
 ↓
 
-Kelompok 9 (Hill Cipher)
+Group 9 (Hill Cipher)
 ↓
 
-Kelompok 4 (Playfair Cipher)
+Group 4 (Playfair Cipher)
 
-## Fitur
+## Features
 
-- Encrypt Hill Cipher 2x2
-- Decrypt Hill Cipher 2x2
-- Input Key Matrix manual
-- Validasi key invertible
-- Preprocessing otomatis
-- Detail proses setiap blok
-- Kompatibel dengan alur komunikasi antar kelompok
+- Hill Cipher 2×2 Encryption
+- Hill Cipher 2×2 Decryption
+- Manual Key Matrix Input
+- Invertible Key Validation
+- Automatic Preprocessing
+- Detailed Process for Each Block
+- Compatible with the inter-group communication workflow
 
-## Spesifikasi
+## Specifications
 
 - Python 3
-- Matrix 2x2
+- 2×2 Matrix
 - Modulo 26
-- Mapping A=0 sampai Z=25
+- Mapping A=0 to Z=25
 
-Default Key Matrix
+### Default Key Matrix
 
 ```
-
 [3 3]
 [2 5]
-
 ```
 
-## Menjalankan Program
+## Running the Program
 
 ```bash
 python hill_cipher_kriptografi.py
